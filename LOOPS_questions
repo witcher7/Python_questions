@@ -1,0 +1,223 @@
+1.  for i in "Myblog":
+         print (i, '?')
+
+Show Answer
+
+
+2.  for i in range(5):
+        print(i)
+
+Show Answer
+
+
+3. for i in range(10,15):
+        print(i)
+
+Show Answer
+
+
+Q2. Write a program to print first 10 natural number.
+Show Answer
+
+
+Q3. Write a program to print first 10 even numbers.
+Show Answer
+
+
+Q4. Write a program to print first 10 odd numbers.
+Show Answer
+
+
+Q5. Write a program to print first 10 even numbers in reverse order.
+Show Answer
+
+
+Q6. Write a program to print table of a number accepted from user.
+Show Answer
+
+
+Q7. Write a program to display product of the digits of a number accepted from the user.
+Show Answer
+
+
+Q8. Write a program to find the factorial of a number.
+Show Answer
+
+
+Q9. Write a program to find the sum of the digits of a number accepted from user
+Show Answer
+
+
+Q10. Write a program to check whether a number is prime or not.
+Show Answer
+Practice Questions of Loops in Python — Test 2
+Q1. Write the output of the following
+
+1. for i in (1,10):
+       print(i)
+Show Answer
+
+
+2. for i in (5,9):
+       print(i)
+Show Answer
+
+
+3. for i in range(2,7):
+       print(i)
+Show Answer
+
+
+4. for i in "csiplearninghub":
+       print(i)
+Show Answer
+
+
+5. for i in "python":
+       print(i, end=' ')
+Show Answer
+
+
+
+6. for i in "python":
+      print(i, end=='?')
+Show Answer
+
+
+7. for i in "python":
+        print(i, '?$')
+Show Answer
+
+
+8. for i in (1,2,3,4):
+       print(i)
+Show Answer
+
+
+9. for i in (3,4,7):
+      print(i)
+Show Answer
+
+10. for i in range(2,10,2):
+     print(i)
+Show Answer
+
+Q1. Write the output of the following code :
+[1]
+x=5
+while(x<15):
+  print(x**2)
+  x+=3
+Show Answer
+ 
+[2]
+a=7
+b=5
+while(a<9):
+  print(a+b)
+  a+=1
+Show Answer
+[3]:
+b=5
+while(b<9):
+  print("H")
+  b+=1
+Show Answer
+[4]:
+b=15
+while(b>9):
+  print("Hello")
+  b=b-2
+Show Answer
+ 
+[5]:
+x=15
+while(x==15):
+  print("Hello")
+  x=x-3
+Show Answer
+ 
+[6]:
+x = "123"
+for i in x:
+  print("a")
+Show Answer
+ 
+ [7]:
+i=9
+while True:
+  if i%3==0:
+    break
+  print("A")
+Show Answer
+ 
+[8]:
+a=6
+while(a<=10):
+  print("a")
+  a+=1 
+Show Answer
+ 
+[9]:
+i=0
+while i<3:
+  print(i)
+  i=i+1
+else:
+  print(7)
+Show Answer
+ 
+[10]:
+i=0
+while i<3:
+  print(i)
+  i=i+1
+  print(0)
+Show Answer
+ 
+[11]:
+i=2
+for x in range(i):
+  i+=1
+  print(i)
+  print(i)
+Show Answer
+[12]:
+i=2
+for x in range(i):
+  x+=1
+  print(x)
+print(x)
+Show Answer
+ 
+[13]:
+i=2
+for x in range(i):
+  x+=1
+  print(x)
+  print("x")
+Show Answer
+ 
+[14]:
+i=100
+while i<57:
+  print(i)
+  i+=5
+Show Answer
+
+
+
+
+Q4. Write a program to display sum of odd numbers and even numbers that fall between 12 and 37(including both numbers)
+
+Show Answer
+Q5. Write a program to display all the numbers which are divisible by 11 but not by 2 between 100 and 500.
+
+Show Answer
+Q6. How many times the following loop execute?
+
+c = 0
+
+while c < 20:
+
+      c += 2
