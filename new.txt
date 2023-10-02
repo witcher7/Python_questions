@@ -1,0 +1,122 @@
+# Q1. Write a program to accept percentage from the user and display the grade according to the following criteria:
+
+#          Marks                                    Grade
+#          > 90                                      A
+#          > 80 and <= 90                            B
+#          >= 60 and <= 80                           C
+#          below 60                                  D
+
+# Show Answer
+
+    
+
+# Q2. Write a program to accept the cost price of a bike and display the road tax to be paid according to the following criteria :
+    
+#         Cost price (in Rs)                                       Tax
+#         > 100000                                                  15 %
+#         > 50000 and <= 100000                                     10%
+#         <= 50000                                                  5%
+
+# Show Answer
+
+
+
+# Q4. Write a program to accept a number from 1 to 7 and display the name of the day like 1 for Sunday , 2 for Monday and so on.
+
+
+# DATA STRUCTURE
+
+# 1. LIST 
+# # if you want to store multiple items at a same place
+# list = [1 , 2 , 3 , 4 , 5 , 6 ]
+# #       0   1   2   3   4   5  .......n 
+
+# print(list[3])
+
+# # I am printing only 3rd element of my list
+
+# list.append(10)# I HAVE ADDED A NEW ELEMENT INTO THE LAST
+# print(list)
+
+
+# TUPLES
+# these are same data structures as list but it does not allow to change the elements inside it
+
+# cookies = ("Cadburies","M&M","Bournville","COCOPAW")
+#             0          1        2           3
+# print(cookies[2])
+# length = len(cookies)
+# for i in range(length):
+#   print(cookies[i])
+
+
+# loops are the structures which helps in repeating the stuff
+                 # 1-> starting point
+                # n -1 ( 10 --> 9) , (11 --> 10)
+# for i in range(1,12): # the range should be adjusted
+#   print(i)
+
+
+# #  10 --> 1
+# for i in range (10,0,-2):
+#   print(i)
+
+
+
+# # print numbers from 10 -> 20
+# 1.1 -> 15
+# 2. 10 --> -10
+# 3. 100 --> 999
+# 4. 888 --> 88
+# 5. 175 --> 75
+
+# 89 ---> 90
+# 88 ---> 89
+# 87 ---> 88
+
+# for i in range(175,74,-1):
+#   print(i)
+
+
+# make sure when you are printing in positive --> +1 in ending point
+
+# -1 (decreasing or reverse order) --> -1 in ending point
+
+# # I HAVE A LIST 
+# numbers = [10,20,30,40,50]
+# # print(numbers)
+
+# # IF I WANT TO PRINT NUMBERS SEPERATELY
+# length = len(numbers)
+# for i in range(length):
+#   print(numbers[i])
+
+# # I WANT TO TAKE INPUT FOR MY LIST/array
+# n = int(input("Enter the length of the list: "))
+# list = []
+# for i in range(n):
+#   take = int(input())
+#   list.append(take) # the element we are taking , we are putting into our empty list
+# print(list)
+
+# I want to find how many times my k is coming
+
+# INPUT --> 13 45 -3 13 6 13 100 13 145
+#       k = 13
+# OUTPUT --> 4
+
+n = int(input("Enter the length of the list: "))
+list = []
+for i in range(n):
+  take = int(input())
+  list.append(take)
+
+k = int(input("Enter value for k: "))
+counter = 0
+for i in range(n):
+  if list[i] ==k:
+    counter = counter +1
+
+
+print(counter)
+# AMAZON INTERVIEW QUESTION
