@@ -7,6 +7,16 @@
 #          below 60                                  D
 
 # Show Answer
+n = int(input("Enter the percentage: "))
+if(n>90):
+   print("Grade is A")
+elif(n>80) and (n<=90):
+  print("Grade is B")
+elif(n>=60) and (n<=80):
+  print("Grade is C")
+else:
+  print("Grade is D")
+
 
     
 
@@ -19,9 +29,35 @@
 
 # Show Answer
 
+n = int(input("Enter the cost price: "))
+if(n>100000):
+ tax=n*0.15
+ print("Amount to be paid is ", tax)
+elif(n>50000) and (n<=100000):
+ tax=n*0.1
+ print("Amount to be paid is ", tax)
+else(n<=50000):
+  tax=n*0.05
+  print("Amount to be paid is ", tax)
+
 
 
 # Q4. Write a program to accept a number from 1 to 7 and display the name of the day like 1 for Sunday , 2 for Monday and so on.
+n = int(input("Enter a number: "))
+if(n==1):
+ print("Sunday")
+elif(n==2):
+ print("Monday")
+elif(n==3):
+ print("Tuesday")
+elif(n==4):
+ print("Wednesday")
+elif(n==5):
+ print("Thursday")
+elif(n==6):
+ print("Friday")
+elif(n==7):
+ print("Saturday")
 
 
 # DATA STRUCTURE
@@ -37,6 +73,12 @@
 
 # list.append(10)# I HAVE ADDED A NEW ELEMENT INTO THE LAST
 # print(list)
+ Answer:-
+list = [1, 2, 3, 4, 5, 6]
+print(list[3])  
+list.append(10)
+print(list)
+
 
 
 # TUPLES
@@ -48,6 +90,12 @@
 # length = len(cookies)
 # for i in range(length):
 #   print(cookies[i])
+Answer:-
+Bourville
+Cadburies
+M&M
+Bournville
+COCOPAW
 
 
 # loops are the structures which helps in repeating the stuff
@@ -55,12 +103,28 @@
                 # n -1 ( 10 --> 9) , (11 --> 10)
 # for i in range(1,12): # the range should be adjusted
 #   print(i)
-
+Answer:-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
 
 # #  10 --> 1
 # for i in range (10,0,-2):
 #   print(i)
-
+Answer:
+10
+8
+6
+4
+2
 
 
 # # print numbers from 10 -> 20
@@ -76,7 +140,18 @@
 
 # for i in range(175,74,-1):
 #   print(i)
-
+Answer:-
+175
+174
+173
+172
+171
+170
+.
+.
+.
+.
+75
 
 # make sure when you are printing in positive --> +1 in ending point
 
@@ -90,6 +165,14 @@
 # length = len(numbers)
 # for i in range(length):
 #   print(numbers[i])
+Answer:-
+num = [10, 20, 30, 40, 50]
+print("Positive Direction:")
+for i in range(len(num)):
+    print(num[i])
+print("Negative Direction:")
+for i in range(len(num) -1,-1,-1):
+    print(num[i])
 
 # # I WANT TO TAKE INPUT FOR MY LIST/array
 # n = int(input("Enter the length of the list: "))
@@ -98,6 +181,46 @@
 #   take = int(input())
 #   list.append(take) # the element we are taking , we are putting into our empty list
 # print(list)
+Answer:-
+Enter the length of the list: 5
+Enter an element: 4
+Enter an element: 4
+Enter an element: 3
+Enter an element: 5
+Enter an element: 6
+[4, 4, 3, 5, 6]
+
+
+# Taking input for the length of the list
+n = int(input("Enter the length of the list: ")
+
+# Initializing an empty list
+my_list = []
+Answer:-
+n = int(input("Enter the length of the list: "))
+my_list = []
+for i in range(n):
+    take = int(input("Enter an element: "))
+    my_list.append(take)
+print("My list: ", my_list)
+
+
+
+# Loop to take input from the user and append to the list
+for i in range(n):
+    take = int(input("Enter an element: "))
+    my_list.append(take)
+
+# Printing the final list
+print(my_list)
+Answer:-
+n = int(input("Enter the length of the list: "))
+my_list = []
+for i in range(n):
+    take = int(input("Enter an element: "))
+    my_list.append(take)
+print(my_list)
+
 
 # I want to find how many times my k is coming
 
