@@ -1,0 +1,21 @@
+def list_input():
+ n = int(input('Enter number: '))
+ list =[]
+ for i in range(n):
+    take= int(input('enter element: '))
+    list.append(take)
+ return list 
+
+def search_element(k,list):
+  for i in range(len(list)):
+    if k == list[i]:
+      return True
+
+list = list_input()
+print(list)
+k = int(input("Enter the value for K : "))
+ans = search_element(k,list)
+if ans == True:
+  print("Element exists")
+else:
+  print("Element does not exists")
